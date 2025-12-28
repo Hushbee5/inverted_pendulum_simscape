@@ -1,21 +1,21 @@
-# Inverted Pendulum (Simscape) — Simulink Model
+# Inverted Pendulum (Cart-Pole) — Simscape/Simulink + PID Control
 
-Bu repo, **Simscape kullanılarak oluşturulmuş Inverted Pendulum (Cart-Pole)** Simulink modelini içerir.
+This repository contains a **physics-based Inverted Pendulum (Cart-Pole)** model built in **MATLAB/Simulink using Simscape**, along with a **PID controller** for stabilization.
 
-## İçerik
-- `inverted_pendulum_simscape.slx` — Simulink/Simscape model dosyası  
-- `inverted_pendulum_simscape_video.mp4` — Kısa demo video  
-- `.gitignore` — Simulink’in ürettiği geçici dosyaları repoya eklememek için
+## Contents
+- `inverted_pendulum_simscape.slx` — Simulink/Simscape model file  
+- `inverted_pendulum_simscape_video.mp4` — Short demo video  
+- `.gitignore` — Prevents generated/cache files from being committed
 
-## Gereksinimler
-- MATLAB (Test edildi: **R2025b** — farklı sürümlerde de çalışabilir)
+## Requirements
+- MATLAB (tested with **R2025b**; other versions may also work)
 - Simulink
 - Simscape
 
-> Not: Eğer model ek bloksetler istiyorsa MATLAB açınca hata mesajında hangi toolbox gerektiğini yazar.
+> Note: If additional products are required, MATLAB will show the missing toolbox/product name when opening or running the model.
 
-## Kurulum
-Repo’yu indir/klonla:
+## Getting Started
+Clone the repository:
 ```bash
 git clone https://github.com/Hushbee5/inverted_pendulum_simscape.git
 cd inverted_pendulum_simscape
